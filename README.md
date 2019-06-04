@@ -19,5 +19,7 @@ Initial setup and instructions for setting up Vue with Laravel and working compo
 8. Run again to compile changes npm run dev
 9. You can also run npm run watch-poll to watch for changes and a one time command run
 10. To add new components, go to /resources/js and open app.js, declare your components on the same way as example-component is declared
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+    Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
 11. Play with it an be happy developing!
